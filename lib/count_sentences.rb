@@ -28,6 +28,6 @@ end
 
   def count_sentences
     count_sentences = txt.split(/\.|\?|!/).length
-  puts sentence_count
+  puts count_sentences.to_s
   end
 end
