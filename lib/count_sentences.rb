@@ -27,7 +27,7 @@ end
   end
 
   def count_sentences
-    count_sentences = txt.split(/\.|\?|!/).length
+    count_sentences = self.split(/\.|\?|!/).length
   puts count_sentences.to_s
   end
 end
