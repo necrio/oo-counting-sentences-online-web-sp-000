@@ -27,6 +27,7 @@ end
   end
 
   def count_sentences
-    self.string.scan(/[^\.!?]+[\.!?]/).map(&:strip!).count
+    count_sentences = txt.split(/\.|\?|!/).length
+  puts sentence_count
   end
 end
