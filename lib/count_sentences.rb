@@ -28,6 +28,6 @@ end
 
   def count_sentences
     count_sentences = self.split(/\.|\?|!/).length
-  return count_sentences
+  return count_sentences.to_s
   end
 end
